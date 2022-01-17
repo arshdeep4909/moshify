@@ -4,6 +4,8 @@
   --color-accent: #ff3400;
   --color-headings: #1b0760;
   --color-body: #918ca4;
+  --color-border: #ccc;
+  --border-radius: 30px;
 }
 
 *,
@@ -240,4 +242,57 @@ a {
   .button {
     font-size: 1.5rem;
   }
+}
+
+/*Inputs*/
+
+.input {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+  color: var(--color-headings);
+  font-size: 2rem;
+  outline: none;
+  padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+  color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}
+
+/* ------Input group -------- */
+/* With this we can group the input block with something else 
+in our webpage it is grouped with a SEARCH button */
+
+.input-group {
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  display: flex;
+  box-shadow: 0 0 30px lightgrey;
+}
+
+.input-group .input {
+  border: none;
+  width: auto;
+  flex-grow: 1;
+}
+
+.input-group .button {
+  margin: 4px;
+  width: 18rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group .icon {
+  width: 25px;
+  height: 20px;
+  fill: white;
+  margin: 0 15px 0 0;
 }

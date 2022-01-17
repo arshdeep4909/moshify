@@ -29,6 +29,9 @@ buttons
 - one was takingthe size of container and other just to fit the content - also one was outline button which was just the part
   of the card block
 
-Inputs
+Input group
 
--
+- creating the input group along with the button
+  -crating both component in the same div to give the
+  illusion of a single element
+- finished creating the whole block and giving it all the styles
