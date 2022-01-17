@@ -35,3 +35,18 @@ Input group
   -crating both component in the same div to give the
   illusion of a single element
 - finished creating the whole block and giving it all the styles
+
+cards
+
+-creating a basic structure of a card
+-just defining a header and different skins for the header
+-defining a body and just a basic layout, the padding, text color etc
+
+plan
+
+- created the complete card component including the list
+- used the card component build befoer and then added badges and list
+  components which were previously created
+- Also create a new class and then used pseudo selector to add the
+  popular badge on the plan
+- a better approach then adding the popular badge mannualy
