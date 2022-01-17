@@ -6,6 +6,11 @@
   --color-body: #918ca4;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 /*----Typography ----*/
 
 html {
@@ -141,5 +146,98 @@ a {
 @media screen and (min-widht: 1024px) {
   .list--tick .list__item {
     padding-left: 0;
+  }
+}
+
+/* Icons */
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon--primary {
+  fill: var(--color-primary);
+}
+
+.icon-container {
+  background: #f3f9f8;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------Buttons ------*/
+
+.random {
+  width: 40vw;
+  height: 50vh;
+}
+
+.button {
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 1rem 0;
+  padding: 2rem 3rem;
+  text-transform: uppercase;
+  border: 0;
+  text-align: center;
+}
+
+.button--outline {
+  border: 2px solid var(--color-headings);
+  background: w;
+  color: var(--color-headings);
+}
+
+.button--outline:hover {
+  cursor: pointer;
+  background: var(--color-headings);
+  color: white;
+}
+
+.button--block {
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.button--accent {
+  background-color: var(--color-accent);
+  color: white;
+  border: none;
+}
+
+.button--accent:hover {
+  background-color: #d3330b;
+}
+
+.button--secondary {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.button--secondary:hover {
+  background-color: #0eb4d1;
+}
+
+.button--primary {
+  color: white;
+  background-color: var(--color-primary);
+}
+
+.button--primary:hover {
+  background-color: #136fe7;
+}
+
+@media screen and (min-width: 1024px) {
+  .button {
+    font-size: 1.5rem;
   }
 }
