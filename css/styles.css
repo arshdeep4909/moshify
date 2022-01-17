@@ -382,3 +382,20 @@ in our webpage it is grouped with a SEARCH button */
     font-size: 1.5rem;
   }
 }
+/* media */
+
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
+}

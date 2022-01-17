@@ -50,3 +50,9 @@ plan
 - Also create a new class and then used pseudo selector to add the
   popular badge on the plan
 - a better approach then adding the popular badge mannualy
+
+media
+
+-just created a normal layout for the media object
+-did not define the color and back ground and will fine
+tune later when we define the block in which it is layed out
