@@ -56,3 +56,17 @@ media
 -just created a normal layout for the media object
 -did not define the color and back ground and will fine
 tune later when we define the block in which it is layed out
+
+quotes
+
+-here we just created the quotes component without the image
+
+- we did this because we can have some quotes in the future that might not include an image
+- we used pseudo to add quotes before and after
+- the author section was a media section so we added media
+  section and styled it according to our needs
+
+grid
+
+-just defined a normal grid with two and three colums
+-made it reponsive with breaking points
