@@ -454,8 +454,11 @@ in our webpage it is grouped with a SEARCH button */
   }
 }
 
+<<<<<<< HEAD
 /* grid */
 
+=======
+>>>>>>> 49f60b2 (added the grid component.)
 .grid {
   display: grid;
 }
@@ -470,6 +473,7 @@ in our webpage it is grouped with a SEARCH button */
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+<<<<<<< HEAD
 
 /* Testimonial */
 
@@ -500,3 +504,5 @@ in our webpage it is grouped with a SEARCH button */
     font-size: 2.4rem;
   }
 }
+=======
+>>>>>>> 49f60b2 (added the grid component.)
